@@ -1,0 +1,226 @@
+h2{
+    text-align: center;
+    font-size: 32pt;    
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    }
+
+#box{
+    width: 300px;
+    height: 536px;
+    background: linear-gradient(red,yellow);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+}
+
+#box2{
+    width: 300px;
+    height: 536px;
+    background: linear-gradient(rgb(52, 13, 141),rgb(70, 76, 78));
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+
+#box3{
+    width: 300px;
+    height: 536px;
+    background: linear-gradient(rgb(204, 18, 49),rgb(39, 23, 23));
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+#box4{
+    width: 300px;
+    height: 536px;
+    background: linear-gradient(rgb(34, 207, 230),rgb(233, 230, 230));
+    display: inline-block;
+}
+
+
+
+#box > img{
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 80px; 
+}
+
+
+#box2 > img{
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 80px;
+    
+
+}
+
+#box3 > img{
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 120px; 
+}
+
+#box4 > img{
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 120px; 
+}
+
+
+
+#box > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#box2 > h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#box3 > h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+#box4 > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#box5 > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#box > p{
+    padding: 15px;
+}
+
+#box2 > p{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#box3 > p{
+    padding: 15px;
+    color: white;
+}
+
+#box4 > p{
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+
+
+footer{
+    background-color: aqua;
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 435px) {
+    body{
+        background-color: rgb(243, 239, 247);
+    }
+
+    h2{
+        font-size: 20pt;
+    }
+
+    #box{
+        width: 418px;
+        height: 500px;
+        background: linear-gradient(red,yellow);
+        display: inline-block;        
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 5px;
+        }
+
+         #box > img{
+           margin-left: 162px;
+     }  
+     
+     #box > p{
+         font-weight: bold;
+         font-size: 16pt;
+     }
+
+
+
+     #box2{
+        width: 418px;
+        height: 500px;
+        background: linear-gradient(rgb(163, 10, 117),rgb(66, 66, 59));
+        display: inline-block;        
+        margin-left: 1px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        }   
+
+        #box2 > img{
+            margin-left: 162px;
+         }    
+
+    #box3{
+        width: 418px;
+        height: 500px;
+        background: linear-gradient(rgb(204, 18, 49),rgb(39, 23, 23));
+        display: inline-block;        
+        margin-left: 1px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        }   
+        
+        #box3 > img{
+            margin-left: 162px;
+         } 
+            
+    #box4{
+        width: 418px;
+        height: 500px;
+        background: linear-gradient(rgb(34, 207, 230),rgb(233, 230, 230));
+        display: inline-block;        
+        margin-left: 1px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        }  
+        
+        #box4 > img{
+            margin-left: 162px;
+         } 
+                    
+
+
+        #box > h1{
+            text-align: center;
+            padding: 2px;
+            font-weight: bold;
+            font-size: 26pt;
+            margin-right: 10px;
+        }
+
+       .saibaMais{
+           text-align: center;
+
+       }
+
+}
